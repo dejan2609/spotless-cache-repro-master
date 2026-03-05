@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+compileJava {
+    options.compilerArgs.addAll(['--release', targetCompatibility])
+}
+
+dependencies {
+    testImplementation "junit:junit:4.13.1"
+}

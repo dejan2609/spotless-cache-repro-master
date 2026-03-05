@@ -1,0 +1,11 @@
+*.pem
+.gradle/
+.idea/
+api-dart/src/main/dart
+bin/
+build/
+generated-src/
+*.iml
+server/out/
+server/src/main/generated/
+module2/out/

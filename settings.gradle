@@ -1,0 +1,4 @@
+rootProject.name = 'spotless-cache-repro'
+
+include 'module2'
+include 'server'
