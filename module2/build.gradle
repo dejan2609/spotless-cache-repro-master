@@ -5,6 +5,9 @@ java {
     targetCompatibility = JavaVersion.VERSION_21
 }
 
+repositories {
+    mavenCentral()
+}
 
 compileJava {
     options.compilerArgs.addAll(['--release', targetCompatibility])
