@@ -2,7 +2,7 @@
 
 $counter = 0
 
-while (./gradlew clean build --no-daemon --rerun-tasks) {
+while (./gradlew clean build) {
     $counter++
     Write-Host "**************************************************************************"
     Write-Host "### Build succeeded (execution number: $counter) -->> running again... ###"

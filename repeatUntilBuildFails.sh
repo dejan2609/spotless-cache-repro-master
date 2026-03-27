@@ -1,7 +1,7 @@
 #!/bin/bash
 
 counter=0
-while ./gradlew clean build --no-daemon --rerun-tasks; do
+while ./gradlew clean build; do
     ((counter++))
     echo "**************************************************************************"
     echo "### Build succeeded (execution number: $counter) -->> running again... ###"
